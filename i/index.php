@@ -19,7 +19,7 @@ if (file_exists($imagePath)) {
 $image = imagecreatefrompng($imagePath);
 
 // Set the font size and color for the text
-$font_size = 24;
+$font_size = 28;
 $text_color = imagecolorallocate($image, 255, 255, 255);
 
 // Set the text to be overlayed on the image
